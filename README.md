@@ -21,5 +21,5 @@ Construire une application web de calculatrice simple tout en appliquant de bonn
 ```bash
 git clone https://github.com/alexphng/TP3-LOG3000.git
 cd TP3-LOG3000
-pip install -r requirements.txt
+pip install flask
 python app.py
