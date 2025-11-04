@@ -56,8 +56,7 @@ L'application écoute par défaut sur http://127.0.0.1:5000/.
 ## Utilisation
 
 - Ouvrir la page d'accueil dans un navigateur.
-- Utiliser les boutons pour construire une expression ou taper
-  directement dans le champ (le JS concatène les caractères).
+- Utiliser les boutons pour construire une expression.
 - Appuyer sur '=' pour envoyer l'expression au serveur. Le résultat
   (ou un message d'erreur) s'affiche dans le champ d'affichage.
 
