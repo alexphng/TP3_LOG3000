@@ -31,7 +31,7 @@ def subtract(a, b):
         Returns:
         - nombre: la différence entre a et b
         """
-        return b - a
+        return a - b
 
 
 def multiply(a, b):
