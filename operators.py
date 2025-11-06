@@ -58,4 +58,4 @@ def divide(a, b):
         Returns:
         - nombre: le quotient de a divisé par b
         """
-        return a // b
+        return a / b
