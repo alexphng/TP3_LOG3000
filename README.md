@@ -67,10 +67,15 @@ Remarques importantes :
 
 ## Tests
 
+Les tests unitaires du projet utilisent le module intégré **unittest** de Pythin.
+Ils sont situés dans le dossier /tests et couvrent les principales fonctionnalités de l’application :
+- `test_calculate.py` : Vérifie la logique de la fonction `calculate()` dans `app.py`.
+- `test_operators.py` : Vérifie les opérations arithmétiques (`add`, `subtract`, `multiply`, `divide`) dans `operators.py`.
+
+### Exécuter tous les tests
+
 ```powershell
-pip install pytest
-pytest
-```
+python -m unittest discover -v tests
 
 ## Structure du projet
 
@@ -80,8 +85,9 @@ pytest
 - `templates/` — templates HTML (interface utilisateur).
 - `static/` — ressources statiques (CSS, images).
 - `README.md` — ce fichier.
+- `tests/` — tests unitaires du projet
 
-Chaque dossier `templates/` et `static/` contient son propre
+Chaque dossier contient son propre
 `README.md` décrivant son rôle et les fichiers importants.
 
 ## Flux de contribution
