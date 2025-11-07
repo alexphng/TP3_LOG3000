@@ -11,16 +11,15 @@ interface web.
 
 Le but est de construire une application web de calculatrice simple tout en appliquant de bonnes pratiques GitHub.
 
-- La gestion de versions et de code en équipe
+- La gestion de code et de projet en équipe
 - La documentation du dépôt Github et du code de base
-- Réaliser des pipelines de tests
 - Faire de la correction de bogues
 
-La portée du projett est purement dans un cadre pédagogique.
+La portée du projet est purement dans un cadre pédagogique.
 
 ## Prérequis
 
-- Python 3.8+ installé
+- Python
 - pip
 
 ## Instructions d’installation
